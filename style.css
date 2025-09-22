@@ -959,6 +959,28 @@ body {
   .banner .image {
     display: none;
   }
+  .banner-overlay {
+      width: 150px;
+  height: 70px;
+  }
+  .banner-overlay:hover {
+  border-radius: 5px;
+  width: 160px;
+  height: 75px;
+}
+.banner-overlay p {
+  font-size: 9px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.banner-overlay span {
+  font-size: 7px;
+  display: block;
+  margin-top: 5px;
+  color: #ddd;
+}
+
 
   .banner .content {
     width: 100%;
