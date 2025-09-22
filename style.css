@@ -108,6 +108,7 @@ body {
   transform: translateY(25%);
   width: 24px;
   height: 24px;
+  display: none;
 }
 
 .left .bars {
