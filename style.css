@@ -999,7 +999,15 @@ body {
   }
 
   .banner-row {
-    flex-direction: column;
+    flex-direction: row;
+  }
+  .banner-item {
+    width: 50%;
+    transform: translatey(14px);
+  }
+  .banner-item img {
+    width: auto;
+    height: 100%;
   }
 
   .footer {
@@ -1007,7 +1015,7 @@ body {
   }
 }
 
-@media (max-width: 390px){
+@media (max-width: 375px){
       .categories-grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1026,4 +1034,3 @@ body {
     width: 300px;
   }
 } 
-
