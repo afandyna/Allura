@@ -609,9 +609,9 @@ body {
 }
 
 .banner-item {
+  display: block;
   flex: 1;
   text-align: center;
-  position: relative;
 }
 
 .banner-item img {
@@ -1002,11 +1002,12 @@ body {
     flex-direction: row;
   }
   .banner-item {
+    flex: none;
     width: 50%;
-    transform: translatey(14px);
+    display: flex;
   }
   .banner-item img {
-    width: auto;
+    width: 100%;
     height: 100%;
   }
 
